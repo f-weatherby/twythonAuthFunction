@@ -5,4 +5,5 @@ This is a function that is designed to be incorporated with the Twython library,
 To address this issue, I developed an authentication function that uses Selenium and a Firefox webdriver to complete this process automatically. Its function is as follows: 
 
 (1) Using HTML tags, Selenium finds the username and password fields and the webdriver enters your credentials.
-(2) You are then directed to a page as specified by the callback page where the driver extracts the oauth verifier
+(2) You are then directed to a page as specified by the callback page where the driver extracts the oauth verifier.
+(3) The function returns a fully authenticated twitter object through which API calls can be made.
